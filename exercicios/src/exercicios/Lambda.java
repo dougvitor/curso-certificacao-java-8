@@ -95,6 +95,8 @@ public class Lambda {
 		
 		Calculator<Integer> divide = 
 		        (Integer a, Integer b) -> {return (Integer) a / b;};
+		        
+		System.out.println(divide);
 		
 	}
 	
